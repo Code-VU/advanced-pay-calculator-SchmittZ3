@@ -9,4 +9,5 @@ try:
         pay = hrs*rate
     print("Pay:",pay)
 except:
-    print("Error, please enter numeric input"),quit()
+    print("Error, please enter numeric input")
+    exit()
