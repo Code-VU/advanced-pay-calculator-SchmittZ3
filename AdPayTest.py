@@ -8,4 +8,4 @@ if hrs > 40 :
     pay = regpay + otpay
 else:
     pay = hrs*rate
-print("Pay: ",pay)
+print("Pay:",pay)
