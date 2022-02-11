@@ -14,7 +14,7 @@ try:
             pay = regpay + otpay
         else:
             pay = float(hrs) * float(rate)
-        print("Pay:",pay)
+        print("Pay:", pay)
     except:
         print("Error, please enter numeric input")
 except:
